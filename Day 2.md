@@ -1,4 +1,4 @@
-# Day1
+# Day2
 ## Today, I learned the basics of Cloud Computing and AWS, including key concepts and services used to build,
 # What is Cloud?
   Cloud means using computing resources such as servers, storage, databases, and applications over the internet instead using your own laptop.
