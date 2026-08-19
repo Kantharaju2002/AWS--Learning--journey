@@ -1,1 +1,61 @@
+# Day1
+## Today, I learned the basics of Cloud Computing and AWS, including key concepts and services used to build,
+# What is Cloud?
+  Cloud means using computing resources such as servers, storage, databases, and applications over the internet instead using your own laptop.
+# Three main cloud types :
+## Public
+  Cloud resources are provided by a third party company and accessed over the internet. The infrastructure is shared among multiple customers.
+## Private
+   Cloud infrastructure is dedicated to one organization. It provides more control and can be customized according to the organization's requirements.
+## Hybrid
+   It is a combination of Public Cloud and Private Cloud.
+#  Three cloud service models.
+## IaaS (Infrastructure as a service)
+   you get basics computing infrastructure such as ## virtual servers, storage, and networking. you manage the operating systems and applications.
+   Example : AWS EC2
+## PaaS (Platform as a service) 
+   The cloud provider manages the infrastructure and operating system. You mainly focus on building and deploying your application.
+   Example: AWS Elastic Beanstalk
+## SaaS (Software as a service)
+   You simply use the software without managing the underlying infrastructure.
+   Examples: Gmail, Google Drive, Microsoft 365
+# Core service domains of cloud:
+## Four core pillars of cloud computing are:
+## compute :
+  How your application runs.
+## storage 
+  How your data is stored.
+## Networking:
+   How resources communicate with each others.
+## Security:
+   How everything remains protected.
+# Flow diagram of core pillars of Cloud computing :
 
+
+
+                 ☁️ CLOUD COMPUTING
+                        │
+        ┌───────────────┼───────────────┐
+        │               │               │
+   🖥️ Compute       💾 Storage       🗄️ Security
+        │               │               │
+     EC2 / ECS       S3 / EBS       RDS / DynamoDB
+        │               │               │
+        └───────────────┼───────────────┘
+                        │
+                   🌐 Networking
+                        │
+                 VPC / ALB / DNS
+
+
+                 
+
+# AWS (Amazon web services)
+  AWS (Amazon web services) is Amazon's cloud computing platforms that provides on-demand pay-as-you-go access to a wide range og it services over the internet.
+  AWS was launced by Amazon in 2006 and offers 200+ services.
+  Holds the largest share of the cloud market(around 30%), make it the indudtry standards.
+## pay-as-you-go
+Pay-As-You-Go (PAYG) means you pay only for the cloud resources you actually use, rather than paying a large amount upfront.
+## example:
+Suppose you use an AWS EC2 server for 5 hours.
+You pay for approximately 5 hours of usage, rather than paying for the server for an entire month
